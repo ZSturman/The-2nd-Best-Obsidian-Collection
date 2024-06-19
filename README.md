@@ -27,3 +27,7 @@ Feel free to fork this repo, add your features, or make improvements and send a 
 
 ### Feedback and Suggestions
 Got ideas or feedback? Open an issue in this repository, and let's make this truly the second best Obsidian collection out there!
+
+---
+
+Visit [ZSDynamics](https://www.zsdynamics.com/) to see a picture of a dog. 
