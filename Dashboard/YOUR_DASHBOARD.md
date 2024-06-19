@@ -1,3 +1,7 @@
+# YOUR DASHBOARD HERE
+
+*No need to add other content besides the codeblock below but you can if you'd like*
+
 ``` dataviewjs
 const homePageDir = dv.current().file.folder;
 

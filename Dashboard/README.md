@@ -1,4 +1,4 @@
-<img alt="The-2nd-Best-Obsidian-Collection/Dashboard Example" src="./dashboardExample.png" width="100%">
+<img alt="The-2nd-Best-Obsidian-Collection/Dashboard Example" src="./images/dashboardExample.png" width="100%">
 
 # The-2nd-Best-Obsidian-Collection/Dashboard
 
@@ -6,14 +6,16 @@ This script simplifies the creation of a dashboard in Obsidian by leveraging a f
 
 ## Requirements
 
-- **Dataview**: Be sure to have the `Dataview` plugin installed and enabled in Obsidian as well as the `Enable JS` toggle in the plugin settings turned on. 
+- **Dataview**: Be sure to have the `Dataview` plugin installed and enabled in Obsidian as well as the `Enable JavaScript Queries` toggle in the plugin settings turned on. 
+
+<img alt="The-2nd-Best-Obsidian-Collection/Dashboard Example" src="./images/enableJavaScriptQueries.png" width="100%">
 
 ## Features
 
 - Automatically organizes files into rows and columns based on folder structure.
 - Dynamically updates the dashboard by checking subdirectories and files.
-- Easy setup by pasting the code from `script.md` into a `dataviewjs` codeblack in your `YOUR_DASHBOARD.md` file.
-- Be sure to paste the `css` file in your `.obsidian/snippets` folder (you can use your own css file as well. Directions below)
+- Easy setup by using `YOUR_DASHBOARD.md` (filename not important) file alongside a `rows` or `cols` folder (foldernames ARE important).
+- Be sure to paste the `css` file in your `.obsidian/snippets` folder. You can do this in the settings under `Appearance`.
 
 ### Explanation
 
@@ -34,11 +36,16 @@ This script simplifies the creation of a dashboard in Obsidian by leveraging a f
 
 ### Instructions
 
-1. **Get CSS**: Take `dashboard.css` and paste it in your `.obsidian/snippets` folder. 
-	- **If you can't find this folder:** On Mac type `Cmd + Shift + .`,  Windows is `Ctrl + Shift + .`
+1. **Get CSS**: Take `dashboard.css` and paste it in your `.obsidian/snippets` folder.
+	- **If you can't find this folder:** On Mac type `Cmd + Shift + .`
 2. **Enable styling:** Go to `settings` in `Obsidian` and under `Appearance` enable the css file
-3. **Create Entry Point**: Set up your folder structure with a `YOUR_DASHBOARD` folder and `YOUR_DASHBOARD.md` file inside it. These can be named whatever you'd like.
-4. **Create `rows` OR `cols`:** At the same directory level as `YOUR_DASHBOARD.md` create a new folder names `rows` or `cols`. **Naming convention is important here!** Be sure to only have 1 folder at each level with this name.
+3. **Create Entry Point**: Set up your folder structure with a `YOUR_DASHBOARD` directory and `YOUR_DASHBOARD.md` file inside it. These can be named whatever you'd like.
+4. **Create `rows` OR `cols`:** At the same directory level as `YOUR_DASHBOARD.md` create a new folder named `rows` or `cols`. **Naming convention is important here!** Be sure to only have 1 folder at each level with the name `rows` or `cols`.
+```
+- YOUR_DASHBOARD/
+	- YOUR_DASHBOARD.md
+	- rows
+``` 
 5. **Numbered Folders:** Now establish the order of the rows or columns by numbering the folders inside the `rows` or `cols` folder. These don't have to start at `1` and can have gaps missing, (i.e. `1/`, `3/`, `4/`, `22/`, etc.) just be aware that the folders will be rendered in numeric order. 
 6. **Add Content:** Now in the numbered folders add the files you'd like to be rendered out. These can be markdown files or images. 
 7. **Nested:** To have columns within rows or vice versa you can add an additional `rows` or `cols` folder within the numbered folders. If you have nested rows be sure to continue the pattern from `step 5` above. 
