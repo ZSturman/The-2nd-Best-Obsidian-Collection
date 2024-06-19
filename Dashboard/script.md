@@ -1,3 +1,4 @@
+``` dataviewjs
 const homePageDir = dv.current().file.folder;
 
 // Function to get subdirectories of a given directory
@@ -107,3 +108,4 @@ processDirectories(homePageDir, dashboard).then(() => {
     // Handle errors during processing
     console.error("Error during processing:", error);
 });
+```
