@@ -1,0 +1,31 @@
+/* Container class for the entire dashboard, sets full width and height */
+.dashboard-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Class for rows in the dashboard, sets vertical flexbox layout with a gap between items */
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Class for columns within rows, sets horizontal flexbox layout with a gap between items */
+.cols {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+/* Class for each individual item within rows and columns, sets flexible sizing and background color with padding */
+.item {
+    flex: 1;
+    background-color: rgba(135, 135, 135, 0.072);
+    padding: 0 5px;
+}
+
+/* Utility class for hiding elements from the display */
+.hidden {
+    display: none;
+}
