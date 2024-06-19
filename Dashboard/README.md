@@ -1,6 +1,6 @@
-<img alt="Contenda: Upload original content. Create unlimited transformations." src="./dashboardExample.png" width="100%">
+<img alt="The-2nd-Best-Obsidian-Collection/Dashboard Example" src="./dashboardExample.png" width="100%">
 
-# Obsidian/Dashboard
+# The-2nd-Best-Obsidian-Collection/Dashboard
 
 This script simplifies the creation of a dashboard in Obsidian by leveraging a folder system to represent rows and columns by using css flexbox. Inspired by NextJS routing (a popular framework for building server-rendered React applications), the script processes the current folder directory and organizes files into a structured layout.
 
