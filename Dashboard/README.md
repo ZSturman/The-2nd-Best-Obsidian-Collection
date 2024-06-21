@@ -95,7 +95,9 @@ Dashboard/
 
 In this example, the `content` folder next to the `Dashboard.md` file contains the actual content files. The numbered folders in the `rows` and `cols` directories use embedded links (`![[../content/file1.md]]`, etc.) to display the content from the `content` folder. This structure allows you to manage your files more efficiently and makes it easier to edit deeply nested files.
 
-Not related to this dashboard specifically, but if you want syntax highlighting for DataviewJS you can go into the dataview settings and change the `DataviewJS Keyword` to some other language that you never use but is also similar to `JS`. I wen't with `coffee` since I never use it.
+- **UPDATE:** I found that naming the numbered folders with a `0` at the end (i.e., `10`, `20`, `30`, etc.) will make it easier in the future when you want to add rows or cols since you don't have to rename all the folders. For instance, if you want to add a row between `10` and `20`, you can just add a folder named `15` and it will be placed between the two.
+
+Not related to this dashboard specifically, but if you want syntax highlighting for DataviewJS you can go into the dataview settings and change the `DataviewJS Keyword` to some other language that you never use but is also similar to `JS`. I went with `coffee` since I never use it.
 
 ---
 
