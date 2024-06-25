@@ -12,6 +12,14 @@ The `Dashboard` feature is a dynamic way to visualize your Obsidian folders and 
 
 - **Setup**: Simply paste the provided CSS and JavaScript files into your Obsidian settings to get started.
 
+### QueueCards
+
+The `QueueCards` feature helps you stay organized by creating a queue of notes to work through. You can skip items if you're not ready to deal with them yet, and each time you do, the skip counter goes up. This count also influences the color of the queued items, so you can see at a glance which items you've been avoiding.
+
+- **Requirements**: For this to work, your notes need to have a `to` field in the frontmatter or metadata. This field can either be a string or an array of strings.
+
+- **Setup**: Copy and paste the provided JavaScript and CSS files into your vault, and configure Templater to use the script.
+
 ## Getting Started
 
 To use the contents of this repo, clone it or download the files to your local machine:
