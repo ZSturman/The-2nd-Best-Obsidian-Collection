@@ -1,0 +1,92 @@
+/* Style for the container that holds all the queue cards. It arranges cards in a row, allows them to wrap, and centers them with a gap between each card. */
+.q-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* General styling for each card, with padding, border, and rounded corners. Cards are flexible items displayed in a column format. */
+.q-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* Styles for cards in 'good' status. It sets standard border and rounded corners. */
+.q-card-status-good {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for cards in 'okay' status with a different border color and slightly more rounded corners. */
+.q-card-status-okay {
+    border: 1px solid #c0d786;
+    border-radius: 7px;
+}
+
+/* Styles for cards in 'bad' status with a distinct border color and even more rounded corners. */
+.q-card-status-bad {
+    border: 1px solid #cc7d7d;
+    border-radius: 9px;
+}
+
+/* Styles for cards in 'terrible' status with a bright red border color and the most rounded corners. */
+.q-card-status-terrible {
+    border: 1px solid #fe0000;
+    border-radius: 12px;
+}
+
+/* Styling for the filename element within the card. Increases font size, sets bold weight, and manages overflow. */
+.q-card-filename {
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Correct property for preventing wrapping */
+}
+
+/* Styling for the 'to' field in the card. Sets font size, semi-bold weight, and a gray color. */
+.q-card-to {
+    font-size: 1rem;
+    font-weight: 600; /* Correct value for semi-bold */
+    color: #666;
+    list-style: none;
+}
+
+/* Style for the modification time on the card. Small font size, gray color, and hidden by default. */
+.q-card-mtime {
+    font-size: 0.8em;
+    color: #666;
+    display: none;
+}
+
+/* Styling for the bottom row of the card, which contains actions like the skip button. It is a flex row, centered and spaced. */
+.q-card-bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Style for the skip button, including spacing, border, rounded corners, and a cursor change on hover. */
+.q-skip-button {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Styling for displaying the skip count, using a gray color. */
+.q-card-skipCount {
+    color: #666;
+}
