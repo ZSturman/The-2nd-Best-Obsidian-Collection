@@ -1,0 +1,68 @@
+{
+  "assetsFolder" : {
+    "path" : "\/Users\/zacharysturman\/Downloads\/PORTFOLIO\/Technology\/The-2nd-Best-Obsidian-Collection\/FolioAssets"
+  },
+  "category" : "Software",
+  "createdAt" : 734002577.359291,
+  "description" : "This project is a modular toolkit designed to make working inside Obsidian more dynamic and visual. It includes a dashboard system modeled after how Next.js handles routing, turning your folder structure into a navigable home view that mirrors the way web frameworks organize content. Alongside it is QueueCards, a note queueing system that helps prioritize ideas, tasks, or references by tracking how often items are skipped. Together, they create a workspace that’s both structured and adaptable, aimed at people who like to think in systems and want their vault to feel more like a living interface than a static archive.",
+  "domain" : "Technology",
+  "featured" : false,
+  "filePath" : "file:\/\/\/Users\/zacharysturman\/Downloads\/PORTFOLIO\/Technology\/The-2nd-Best-Obsidian-Collection\/ObsidianToolkit.folio\/",
+  "id" : "E416F69B-82AA-42FE-85CC-D0D41D3689A3",
+  "images" : {
+    "banner" : {
+      "customAspectRatio" : [
+        1280,
+        640
+      ],
+      "id" : "5996E271-A685-4613-98F2-E6B5FA31B9E2",
+      "path" : "banner.gif"
+    },
+    "poster" : {
+      "customAspectRatio" : [
+        755,
+        1133
+      ],
+      "id" : "59FB7F85-F48C-42AA-B15C-002A6ED050DB",
+      "path" : "poster.gif"
+    },
+    "thumbnail" : {
+      "customAspectRatio" : [
+        480,
+        477
+      ],
+      "id" : "A6040831-0CD5-4269-8041-276FF8E9A12C",
+      "path" : "thumbnail.png"
+    }
+  },
+  "isPublic" : true,
+  "mediums" : [
+    "Desktop"
+  ],
+  "phase" : "Developing",
+  "requiresFollowUp" : false,
+  "resources" : [
+    {
+      "category" : "repository",
+      "label" : "Repo",
+      "type" : "github",
+      "url" : "https:\/\/github.com\/ZSturman\/The-2nd-Best-Obsidian-Collection"
+    }
+  ],
+  "status" : "In Progress",
+  "story" : "I built this collection out of curiosity about what it would look like if a note vault could behave like a web app. I’d been working with Next.js and liked its clean, predictable routing model, so I brought that idea into Obsidian, building a dashboard that treated folders as routes and notes as pages. Around the same time, I started experimenting with QueueCards, which became an early version of what would later become my app Top Note. This earlier version stayed fully local—everything lived inside Obsidian—but it taught me a lot about how people manage unfinished thoughts. Looking back, it was less about building tools and more about understanding how I think when the tools get out of the way.",
+  "subtitle" : "The-2nd-Best-Obsidian-Collection",
+  "summary" : "A modular Obsidian toolkit that turns your vault into an interactive dashboard and adds a simple queue system for managing notes. It’s an experiment in blending web-style structure with personal note-taking.",
+  "tags" : [
+    "Obsidian",
+    "Dashboard",
+    "Notes",
+    "JavaScript",
+    "Next.js"
+  ],
+  "title" : "Obsidian Toolkit",
+  "topics" : [
+    "Productivity"
+  ],
+  "updatedAt" : 741865093.849213
+}
